@@ -37,3 +37,28 @@ header .logo{
     margin: 0 auto;
 }
 
+main section{
+    padding: 0 5%;
+}
+
+.hero__text h1{
+    margin-bottom: 18px;
+    text-align: center;
+    color: #54E6AF;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 38px;
+}
+
+.hero__text h1 span{
+    color: #FFFFFF;
+}
+
+.hero__text p{
+    text-align: center;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25px;
+    color: #C2CBE5;
+}
