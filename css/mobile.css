@@ -104,3 +104,32 @@ main section {
     height: 15px;
     background-image: url("../assets/desktop/pocket-casts.svg");
 }
+
+.hero__form{
+    /* display: flex; */
+}
+
+.hero__form input{
+    display: block;
+    margin-bottom: 16px;
+    width: 100%;
+    height: 46px;
+    border: none;
+    border-radius: 28px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.hero__form input[type="email"]{
+    padding-left: 32px;
+    background: #2C344B;
+}
+.hero__form input[type="email"]::placeholder{
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+.hero__form input[type="submit"]{
+    background: #54E6AF;
+    color: #121725;
+}
